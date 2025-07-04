@@ -6,18 +6,11 @@ import * as trpcExpress from '@trpc/server/adapters/express';
 
 // created for each request
 const createContext = ({ req, res }: trpcExpress.CreateExpressContextOptions) => {
-	const getAuthorization = () => {
-		if (req.headers.authorization) {
-			const token = req.headers.authorization?.split(' ')[1];
-		}
-		return null;
-	};
-
 	return {
 		req,
 		res,
 	};
-}; // no context
+}; 
 type Context = Awaited<ReturnType<typeof createContext>>;
 
 const t = initTRPC.context<Context>().create();

@@ -94,3 +94,8 @@ cp trpc-types/TRPCAppRouter.d.ts ../nextjs-app/src/trpc/types/
 ```
 You can automate this step in CI/CD or with a postbuild script if needed.
 Now frontend has full IntelliSense, type inference, and safety when calling backend procedures—without needing a monorepo or runtime dependency on the API codebase.
+
+## 🧩 Source Code
+- Server
+    - TRPC Config
+    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/config/trpc/index.ts
