@@ -98,21 +98,21 @@ Now frontend has full IntelliSense, type inference, and safety when calling back
 ## 🧩 Source Code
 - Server
     - TRPC Config
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/config/trpc/index.ts
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/config/trpc/index.ts
     - Demo
-    https://github.com/KishorNaik/trpc_demo_server_client/tree/main/api/src/modules/trpcDemo
+        https://github.com/KishorNaik/trpc_demo_server_client/tree/main/api/src/modules/trpcDemo
     - Merge Route
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/modules/app.Module.ts
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/modules/app.Module.ts
     - init tRPC Router
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/app.ts#L61
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/app.ts#L61
     - Generate type using trpc:type script
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/trpc-types/TRPCAppRouter.d.ts
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/trpc-types/TRPCAppRouter.d.ts
 
 - Client
     - Copy trpc type to nextjs
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/client/trpc/types/TRPCAppRouter.d.ts
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/client/trpc/types/TRPCAppRouter.d.ts
     - setup client
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/client/trpc/index.ts
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/client/trpc/index.ts
     - demo Page
-    https://github.com/KishorNaik/trpc_demo_server_client/blob/main/client/app/demo/page.tsx
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/client/app/demo/page.tsx
 
