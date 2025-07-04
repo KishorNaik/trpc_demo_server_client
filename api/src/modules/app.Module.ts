@@ -5,7 +5,7 @@ import { trpcDemoModule } from './trpcDemo/trpcDemo.Module';
 const restApiModulesFederation: Function[] = [];
 
 // TRPC
-const trpcModulesFederation = mergeRouters(trpcDemoModule);
+const trpcModulesFederation = mergeRouters(trpcDemoModule); // comma separated multiple modules
 type TRPCAppRouter = typeof trpcModulesFederation;
 
 export { restApiModulesFederation, trpcModulesFederation, TRPCAppRouter };
