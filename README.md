@@ -105,6 +105,8 @@ Now frontend has full IntelliSense, type inference, and safety when calling back
         https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/modules/app.Module.ts
     - init tRPC Router
         https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/app.ts#L61
+    - Run trpc Router
+        https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/src/server.ts#L19
     - Generate type using trpc:type script
         https://github.com/KishorNaik/trpc_demo_server_client/blob/main/api/trpc-types/TRPCAppRouter.d.ts
 
